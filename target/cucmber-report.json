@@ -1,0 +1,682 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-18T12:18:40.798Z",
+        "line": 20,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3356993500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Launch Chrome Browser",
+            "match": {
+              "location": "StepDefinations.Steps.user_Launch_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6135982900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Open url \"https://demo.guru99.com/V4/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.guru99.com/V4/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinations.Steps.user_Open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183999400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters mngr440587 and jUpypUd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr440587",
+                  "offset": 12
+                },
+                {
+                  "val": "jUpypUd",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinations.Steps.user_enters_UserName_as_and_Password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 728016300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login",
+            "match": {
+              "location": "StepDefinations.Steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 729995600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Page title should be \"Guru99 Bank Manager HomePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Guru99 Bank Manager HomePage\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinations.Steps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1437022600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User LogOut from the Application",
+            "match": {
+              "location": "StepDefinations.Steps.user_LogOut_from_the_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-18T12:18:53.499Z",
+        "line": 22,
+        "name": "check for Invalid",
+        "description": "",
+        "id": "login-action;check-for-invalid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6491971800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "check for Invalid",
+            "match": {
+              "location": "StepDefinations.Steps.check_for_Invalid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-18T12:19:00.007Z",
+        "line": 11,
+        "name": "Create the new customer",
+        "description": "",
+        "id": "newcustomer;create-the-new-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8028971100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login again User enters mngr440587  and jUpypUd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr440587",
+                  "offset": 24
+                },
+                {
+                  "val": "jUpypUd",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.login_again_User_enters_Username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97998200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click On the NewCustomer Button",
+            "match": {
+              "location": "StepDefinations.StepNewCustomer.click_On_the_NewCustomer_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3013300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check title \" Guru99 Bank New Customer Entry Page \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Guru99 Bank New Customer Entry Page \"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.check_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-18T12:19:08.166Z",
+        "line": 30,
+        "name": "table Form of new Customer",
+        "description": "",
+        "id": "newcustomer;table-form-of-new-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4254833500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter the CustomerName RsCertds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RsCertds",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_CustomerName(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78008100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the Date 0222022",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0222022",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_Date(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133992300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter the Address 295 Wisdon streethumdge gardeUSA",
+            "match": {
+              "arguments": [
+                {
+                  "val": "295 Wisdon streethumdge gardeUSA",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_Address(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96992600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter the City NEW YORK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NEW YORK",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_City(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127994300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter the State North Eastern USA",
+            "match": {
+              "arguments": [
+                {
+                  "val": "North Eastern USA",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_State(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94002700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter the PIN 452011",
+            "match": {
+              "arguments": [
+                {
+                  "val": "452011",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_PIN(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102988400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter the MOB 9111911946",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9111911946",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_MOB(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137000400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter the Eamil rajatsharma.er@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rajatsharma.er@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_Eamil(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87990400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the Password Rajat@123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rajat@123",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_Password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4320784500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on submit button",
+            "match": {
+              "location": "StepDefinations.StepNewCustomer.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-18T12:19:17.623Z",
+        "line": 39,
+        "name": "Click on edit customer",
+        "description": "",
+        "id": "newcustomer;click-on-edit-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8336588400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click On Edit Customer \"50441\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50441\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinations.StepClickEdit.click_On_Edit_Customer(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1984899100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Update the address NSDL e-Governance Infrastructure Limited Kamala Mills Compound Senapati Bapat Marg Lower Parel Mumbai  400 013",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NSDL e-Governance Infrastructure Limited Kamala Mills Compound Senapati Bapat Marg Lower Parel Mumbai  400 013",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinations.StepClickEdit.update_the_address_UpdateAddress(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "NewCustomer",
+    "description": "",
+    "id": "newcustomer",
+    "keyword": "Feature",
+    "uri": "file:Features/NewCustomer.feature",
+    "tags": []
+  }
+]30,
+        "name": "table Form of new Customer",
+        "description": "",
+        "id": "newcustomer;table-form-of-new-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name\u003d\u0027name\u0027]\"}\n  (Session info: chrome\u003d106.0.5249.119)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.3.0\u0027, revision: \u0027a4995e2c09*\u0027\nSystem info: host: \u0027CISM538\u0027, ip: \u0027192.168.8.29\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f6162d47cf5c4748ca10609e4cc9ee00, findElement {using\u003dxpath, value\u003d//input[@name\u003d\u0027name\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\RAJAT~1.S(2\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62893/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f6162d47cf5c4748ca10609e4cc9ee00\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)\r\n\tat PageObjects.NewCustomer.GiveFirstname(NewCustomer.java:85)\r\n\tat StepDefinations.StepNewCustomer.enter_the_CustomerName(StepNewCustomer.java:45)\r\n\tat ✽.Enter the CustomerName RsCertds(file:///C:/Users/rajat.s(2608)/git/repository/CucumberDemo/./Features/NewCustomer.feature:15)\r\n",
+              "duration": 31257889500,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "Enter the CustomerName RsCertds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RsCertds",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_CustomerName(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Enter the Date 0222022",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0222022",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_Date(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996200,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Enter the Address 295 Wisdon streethumdge gardeUSA",
+            "match": {
+              "arguments": [
+                {
+                  "val": "295 Wisdon streethumdge gardeUSA",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_Address(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Enter the City NEW YORK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NEW YORK",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_City(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 973300,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Enter the State North Eastern USA",
+            "match": {
+              "arguments": [
+                {
+                  "val": "North Eastern USA",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_State(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Enter the PIN 452011",
+            "match": {
+              "arguments": [
+                {
+                  "val": "452011",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_PIN(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Enter the MOB 9111911946",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9111911946",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_MOB(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Enter the Eamil rajatsharma.er@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rajatsharma.er@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_Eamil(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Enter the Password Rajat@123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rajat@123",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinations.StepNewCustomer.enter_the_Password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "click on submit button",
+            "match": {
+              "location": "StepDefinations.StepNewCustomer.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-18T12:18:53.239Z",
+        "line": 39,
+        "name": "Click on edit customer",
+        "description": "",
+        "id": "newcustomer;click-on-edit-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()\u003d\u0027Edit Customer\u0027]\"}\n  (Session info: chrome\u003d106.0.5249.119)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.3.0\u0027, revision: \u0027a4995e2c09*\u0027\nSystem info: host: \u0027CISM538\u0027, ip: \u0027192.168.8.29\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f6162d47cf5c4748ca10609e4cc9ee00, findElement {using\u003dxpath, value\u003d//a[text()\u003d\u0027Edit Customer\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\RAJAT~1.S(2\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62893/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f6162d47cf5c4748ca10609e4cc9ee00\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)\r\n\tat PageObjects.EditCustomer.clickCustomerName(EditCustomer.java:20)\r\n\tat StepDefinations.StepClickEdit.click_On_Edit_Customer(StepClickEdit.java:11)\r\n\tat ✽.Click On Edit Customer \"50441\"(file:///C:/Users/rajat.s(2608)/git/repository/CucumberDemo/./Features/NewCustomer.feature:34)\r\n",
+              "duration": 30075198000,
+              "status": "failed"
+            },
+            "line": 34,
+            "name": "Click On Edit Customer \"50441\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50441\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinations.StepClickEdit.click_On_Edit_Customer(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Update the address NSDL e-Governance Infrastructure Limited Kamala Mills Compound Senapati Bapat Marg Lower Parel Mumbai  400 013",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NSDL e-Governance Infrastructure Limited Kamala Mills Compound Senapati Bapat Marg Lower Parel Mumbai  400 013",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinations.StepClickEdit.update_the_address_UpdateAddress(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "NewCustomer",
+    "description": "",
+    "id": "newcustomer",
+    "keyword": "Feature",
+    "uri": "file:Features/NewCustomer.feature",
+    "tags": []
+  }
+]
